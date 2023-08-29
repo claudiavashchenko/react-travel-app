@@ -1,7 +1,11 @@
-
+import logo from '../images/traventure-logo-white.png'
 const Footer = () => {
     return (
-        <footer>FOOTER</footer>
+        <footer>
+            <div className="footer-container">
+                <img className="logo" alt="traventure logo" src={logo} />
+            </div>
+        </footer>
     )
 }
 
