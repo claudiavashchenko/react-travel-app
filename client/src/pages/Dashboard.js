@@ -1,4 +1,4 @@
-
+import Card from '../components/Card'
 const Dashboard = () => {
     const posts = [
         {
@@ -29,7 +29,11 @@ const Dashboard = () => {
                 </div>
                 <button>Add your adventure</button>
             </div>
-            <div className="posts-container"></div>
+            <div className="posts-container">
+                {posts?.map((post) => ( 
+                    <Card key={post.id} post={post} />
+               ))}
+            </div>
         </div>
         </div>
     )
