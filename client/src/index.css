@@ -23,6 +23,10 @@ button {
     border-radius: 90px;
 }
 
+#link {
+    text-decoration: none;
+}
+
 .app {
     display: flex;
     flex-direction: column;
@@ -95,6 +99,18 @@ header .avatar {
 }
 .card-container .info-container {
     padding: 12px 18px;
+}
+
+/*TAG*/
+.tag-container {
+    display: flex;
+}
+.tag {
+    background-color: rgb(230, 232, 236);
+    padding: 10px 15px;
+    margin-right: 4px;
+    border-radius: 20px;
+    font-size: 13px;
 }
 /*FOOTER*/
 footer {

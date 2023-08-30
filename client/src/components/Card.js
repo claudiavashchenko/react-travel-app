@@ -1,4 +1,4 @@
-
+import Tag from './Tag'
 const Card = ({ post }) => {
     return(
         <div className="card-container">
@@ -8,7 +8,9 @@ const Card = ({ post }) => {
             <div className="info-container">
                 <h3>{post.title}</h3>
                 <p>{post.description}</p>
-                <div className="tag-container"></div>
+                <div className="tag-container">
+                    {post.tags.map((tag, _index) => <Tag key={_index} tag={tag} />)}
+                </div>
             </div>
         </div>
     )
