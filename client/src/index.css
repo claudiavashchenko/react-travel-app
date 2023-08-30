@@ -93,6 +93,9 @@ header .avatar {
 .card-container .img-container img {
     width: 200%;
 }
+.card-container .info-container {
+    padding: 12px 18px;
+}
 /*FOOTER*/
 footer {
     background-color: rgb(20, 20, 22);
